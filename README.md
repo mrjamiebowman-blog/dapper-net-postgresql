@@ -1,2 +1,2 @@
-# dapper-net-postgresql
+# Dapper .NET PostgreSQL
 Dapper .NET Samples with PostgreSQL
