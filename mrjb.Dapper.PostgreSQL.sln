@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.194
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A22BA154-B7BF-4354-931C-01969B6214F6}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36255C39-3CC7-4887-9E20-EA1744E92AA3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F765B3A4-AA16-4790-A194-3AAB50EA0F11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mrjb.Dapper.PostgreSQL.Data", "src\mrjb.Dapper.PostgreSQL.Data\mrjb.Dapper.PostgreSQL.Data.csproj", "{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "mrjb.Dapper.PostgreSQL.Tests.Integration", "tests\mrjb.Dapper.PostgreSQL.Tests.Integration\mrjb.Dapper.PostgreSQL.Tests.Integration.csproj", "{D0474CC7-F96E-4254-AAE3-26E20C71343B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Debug|x64.Build.0 = Debug|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Debug|x86.Build.0 = Debug|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Release|x64.ActiveCfg = Release|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Release|x64.Build.0 = Release|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Release|x86.ActiveCfg = Release|Any CPU
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885}.Release|x86.Build.0 = Release|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Debug|x64.Build.0 = Debug|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Debug|x86.Build.0 = Debug|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Release|x64.ActiveCfg = Release|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Release|x64.Build.0 = Release|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Release|x86.ActiveCfg = Release|Any CPU
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1ADFF1A6-DD36-456D-B5E3-C209F78F0885} = {36255C39-3CC7-4887-9E20-EA1744E92AA3}
+		{D0474CC7-F96E-4254-AAE3-26E20C71343B} = {F765B3A4-AA16-4790-A194-3AAB50EA0F11}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1956BE90-A5B3-4A04-8396-73E5A4BA3052}
+	EndGlobalSection
+EndGlobal
